@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | US Framing | Commercial Wood Framing Solutions</title>
+  <meta name="description" content="US Framing offers full-service wood framing: Pre-Design &amp; 3-D Modeling, Pre-Construction, Production Framing, Project Management, Takeover as a Service, and CLT / Mass Timber.">
+  <link rel="canonical" href="https://us-framing.onrender.com/services.html">
+
+  <meta property="og:title" content="Services | US Framing">
+  <meta property="og:description" content="Full-service commercial wood framing from pre-design through completion. Explore our six core services.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://us-framing.onrender.com/services.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&q=80">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'navy': { DEFAULT: '#1B2A4A', dark: '#0F1A2E', light: '#2A3F6B' },
+            'sky': { DEFAULT: '#4A90D9', dark: '#3A7BC8', light: '#6BA8E8' },
+            'warm-gray': { DEFAULT: '#8B8589', dark: '#6B6569', light: '#A8A3A7' },
+          },
+          fontFamily: {
+            'heading': ['Playfair Display', 'Georgia', 'serif'],
+            'body': ['Inter', 'system-ui', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .font-heading { font-family: 'Playfair Display', Georgia, serif; }
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .stagger > * { opacity: 0; transform: translateY(24px); transition: opacity 0.5s ease, transform 0.5s ease; }
+    .stagger.visible > *:nth-child(1) { transition-delay: 0ms; opacity: 1; transform: translateY(0); }
+    .stagger.visible > *:nth-child(2) { transition-delay: 100ms; opacity: 1; transform: translateY(0); }
+    .stagger.visible > *:nth-child(3) { transition-delay: 200ms; opacity: 1; transform: translateY(0); }
+    .stagger.visible > *:nth-child(4) { transition-delay: 300ms; opacity: 1; transform: translateY(0); }
+    .stagger.visible > *:nth-child(5) { transition-delay: 400ms; opacity: 1; transform: translateY(0); }
+    .stagger.visible > *:nth-child(6) { transition-delay: 500ms; opacity: 1; transform: translateY(0); }
+    .hero-overlay { background: linear-gradient(135deg, rgba(15,26,46,0.85) 0%, rgba(27,42,74,0.7) 100%); }
+    .card-hover { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .card-hover:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(27,42,74,0.12); }
+    .nav-scrolled { box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+    html { scroll-behavior: smooth; }
+    a:focus-visible, button:focus-visible { outline: 2px solid #4A90D9; outline-offset: 2px; border-radius: 4px; }
+    .skip-link { position: absolute; top: -100%; left: 50%; transform: translateX(-50%); z-index: 100; }
+    .skip-link:focus { top: 8px; }
+    .faq-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+    .faq-content.open { max-height: 500px; }
+    .faq-chevron { transition: transform 0.3s ease; }
+    .faq-chevron.open { transform: rotate(180deg); }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://us-framing.onrender.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://us-framing.onrender.com/services.html" }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What types of projects does US Framing handle?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "US Framing specializes in large-scale multi-family residential, student housing, senior/assisted living, commercial, and mixed-use projects. We frame 15M+ square feet annually across the United States, handling projects from 50 to 800+ units."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does BIM modeling benefit my framing project?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our MiTek Sapphire BIM modeling creates a complete 3D structural model before construction begins. This enables clash detection with other trades, material optimization reducing waste by up to 15%, accurate cost estimation, and faster on-site production because crews work from precise digital plans."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is Takeover as a Service?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Takeover as a Service is our rapid response program for stalled or troubled framing projects. We can mobilize crews within 48 hours anywhere in the US, assess the current state, stabilize the project, and drive it to completion. No project is too far gone for our experienced teams."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is CLT and how tall can you build with it?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Cross-Laminated Timber (CLT) is an engineered wood product made by layering boards at right angles and bonding them with structural adhesive. CLT buildings can reach up to 30 floors under current US building codes. CLT offers faster construction, lower carbon footprint, and beautiful exposed wood aesthetics."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What regions does US Framing serve?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "US Framing operates nationwide with regional teams covering the Atlantic, Northeast, Midwest, West, South, Southeast, and Florida regions. Our national scale means consistent quality and competitive pricing wherever your project is located."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does US Framing ensure quality and safety?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Quality is built into our 7-step US Framing Way methodology. Every project receives daily inspections, dedicated project managers, and real-time progress tracking via Fieldwire. Our safety record speaks for itself with an industry-leading 0.5 EMR (Experience Modification Rate), well below the industry average of 1.0."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="bg-white text-navy">
+
+  <a href="#main-content" class="skip-link bg-sky text-white px-4 py-2 rounded font-semibold text-sm">Skip to main content</a>
+
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <a href="/" class="flex items-center gap-3 group" aria-label="US Framing Home">
+          <span class="font-heading text-3xl font-bold text-navy">US</span>
+          <span class="w-0.5 h-8 bg-sky rounded-full"></span>
+          <div class="flex flex-col">
+            <span class="font-body text-xl font-light text-navy tracking-widest">FRAMING</span>
+            <span class="font-body text-[9px] font-medium text-sky tracking-[0.2em] -mt-0.5">COMMERCIAL WOOD FRAMING</span>
+          </div>
+        </a>
+        <div class="hidden lg:flex items-center gap-8">
+          <a href="/" class="text-sm font-medium text-navy hover:text-sky transition-colors">Home</a>
+          <a href="/services.html" class="text-sm font-medium text-sky transition-colors">Services</a>
+          <a href="/projects.html" class="text-sm font-medium text-navy hover:text-sky transition-colors">Projects</a>
+          <a href="/about.html" class="text-sm font-medium text-navy hover:text-sky transition-colors">About</a>
+          <a href="/blog.html" class="text-sm font-medium text-navy hover:text-sky transition-colors">Insights</a>
+          <a href="/contact.html" class="text-sm font-medium text-navy hover:text-sky transition-colors">Contact</a>
+          <a href="/contact.html" class="inline-flex items-center px-6 py-2.5 bg-sky hover:bg-sky-dark text-white font-semibold text-sm rounded transition-all duration-200 shadow-md hover:shadow-lg">Request a Bid</a>
+        </div>
+        <button id="mobile-menu-btn" class="lg:hidden p-2 text-navy" aria-label="Open navigation menu" aria-expanded="false">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden fixed inset-0 bg-navy/95 z-50 lg:hidden">
+      <div class="flex flex-col items-center justify-center h-full gap-8">
+        <button id="mobile-menu-close" class="absolute top-6 right-6 text-white p-2" aria-label="Close navigation menu">
+          <i data-lucide="x" class="w-8 h-8"></i>
+        </button>
+        <a href="/" class="text-2xl font-heading text-white hover:text-sky transition-colors">Home</a>
+        <a href="/services.html" class="text-2xl font-heading text-sky transition-colors">Services</a>
+        <a href="/projects.html" class="text-2xl font-heading text-white hover:text-sky transition-colors">Projects</a>
+        <a href="/about.html" class="text-2xl font-heading text-white hover:text-sky transition-colors">About</a>
+        <a href="/blog.html" class="text-2xl font-heading text-white hover:text-sky transition-colors">Insights</a>
+        <a href="/contact.html" class="text-2xl font-heading text-white hover:text-sky transition-colors">Contact</a>
+        <a href="/contact.html" class="mt-4 px-8 py-3 bg-sky text-white font-semibold text-lg rounded">Request a Bid</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- Hero -->
+    <section class="relative pt-32 pb-20 bg-navy-dark">
+      <div class="absolute inset-0 opacity-10">
+        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80" alt="" class="w-full h-full object-cover" aria-hidden="true">
+      </div>
+      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="mb-6">
+          <ol class="flex items-center gap-2 text-sm">
+            <li><a href="/" class="text-white/50 hover:text-sky-light transition-colors">Home</a></li>
+            <li class="text-white/30">/</li>
+            <li class="text-sky-light font-medium">Services</li>
+          </ol>
+        </nav>
+        <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">Our Services</h1>
+        <p class="text-white/70 text-lg max-w-2xl leading-relaxed">From the first 3-D model to the last nail, US Framing provides comprehensive wood framing solutions that cover every phase of your project.</p>
+      </div>
+    </section>
+
+    <!-- Service Navigation -->
+    <section class="sticky top-20 z-40 bg-white border-b border-gray-200 shadow-sm">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center gap-1 overflow-x-auto py-3 -mx-4 px-4 scrollbar-hide">
+          <a href="#pre-design" class="flex-shrink-0 px-4 py-2 text-sm font-medium text-navy hover:text-sky hover:bg-sky/5 rounded-full transition-all">Pre-Design</a>
+          <a href="#pre-construction" class="flex-shrink-0 px-4 py-2 text-sm font-medium text-navy hover:text-sky hover:bg-sky/5 rounded-full transition-all">Pre-Construction</a>
+          <a href="#construction" class="flex-shrink-0 px-4 py-2 text-sm font-medium text-navy hover:text-sky hover:bg-sky/5 rounded-full transition-all">Production Framing</a>
+          <a href="#project-management" class="flex-shrink-0 px-4 py-2 text-sm font-medium text-navy hover:text-sky hover:bg-sky/5 rounded-full transition-all">Project Mgmt</a>
+          <a href="#takeover" class="flex-shrink-0 px-4 py-2 text-sm font-medium text-navy hover:text-sky hover:bg-sky/5 rounded-full transition-all">Takeover</a>
+          <a href="#clt" class="flex-shrink-0 px-4 py-2 text-sm font-medium text-navy hover:text-sky hover:bg-sky/5 rounded-full transition-all">CLT / Mass Timber</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pre-Design & 3-D Modeling -->
+    <section id="pre-design" class="py-24 scroll-mt-36">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center reveal">
+          <div>
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-10 h-10 rounded-lg bg-sky/10 flex items-center justify-center">
+                <i data-lucide="box" class="w-5 h-5 text-sky"></i>
+              </div>
+              <span class="text-sky font-semibold text-sm uppercase tracking-widest">Step 1</span>
+            </div>
+            <h2 class="font-heading text-3xl sm:text-4xl font-bold text-navy mb-6">Pre-Design &amp; 3-D Modeling</h2>
+            <p class="text-warm-gray leading-relaxed mb-8">Before a single board is cut, our engineering team builds a complete digital twin of your project using MiTek Sapphire BIM software. Every wall, truss, connection, and fastener is modeled in 3D, giving you total visibility into the structural system.</p>
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Complete structural modeling with MiTek Sapphire BIM software</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">3D visualization of every connection before construction begins</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Clash detection and coordination with MEP and other trades</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Material optimization that reduces waste by up to 15%</span>
+              </li>
+            </ul>
+            <a href="/contact.html" class="inline-flex items-center px-6 py-3 bg-sky hover:bg-sky-dark text-white font-semibold text-sm rounded transition-all duration-200 shadow-md hover:shadow-lg">
+              Discuss Your Project <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+            </a>
+          </div>
+          <div class="relative rounded-xl overflow-hidden shadow-lg">
+            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80" alt="Architectural blueprints and 3D modeling for wood framing projects" class="w-full h-[400px] object-cover">
+            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-navy/80 to-transparent p-6">
+              <p class="text-white text-sm font-semibold">MiTek Sapphire BIM — Industry-leading structural modeling</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pre-Construction -->
+    <section id="pre-construction" class="py-24 bg-gray-50 scroll-mt-36">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center reveal">
+          <div class="order-2 lg:order-1 relative rounded-xl overflow-hidden shadow-lg">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80" alt="Pre-construction team meeting reviewing project plans" class="w-full h-[400px] object-cover">
+            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-navy/80 to-transparent p-6">
+              <p class="text-white text-sm font-semibold">Collaborative pre-construction planning sessions</p>
+            </div>
+          </div>
+          <div class="order-1 lg:order-2">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-10 h-10 rounded-lg bg-sky/10 flex items-center justify-center">
+                <i data-lucide="calculator" class="w-5 h-5 text-sky"></i>
+              </div>
+              <span class="text-sky font-semibold text-sm uppercase tracking-widest">Step 2</span>
+            </div>
+            <h2 class="font-heading text-3xl sm:text-4xl font-bold text-navy mb-6">Pre-Construction Services</h2>
+            <p class="text-warm-gray leading-relaxed mb-8">Our pre-construction team works alongside your GC from day one to build accurate budgets, identify value engineering opportunities, and develop realistic schedules. We catch issues on paper, not on site.</p>
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Detailed budgeting and cost estimation from BIM takeoffs</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Value engineering to maximize ROI without sacrificing quality</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Constructability review catching conflicts before they happen</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Risk assessment and mitigation planning</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Schedule development with phasing and milestone targets</span>
+              </li>
+            </ul>
+            <a href="/contact.html" class="inline-flex items-center px-6 py-3 bg-sky hover:bg-sky-dark text-white font-semibold text-sm rounded transition-all duration-200 shadow-md hover:shadow-lg">
+              Start Pre-Construction <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Production Framing -->
+    <section id="construction" class="py-24 scroll-mt-36">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center reveal">
+          <div>
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-10 h-10 rounded-lg bg-sky/10 flex items-center justify-center">
+                <i data-lucide="hammer" class="w-5 h-5 text-sky"></i>
+              </div>
+              <span class="text-sky font-semibold text-sm uppercase tracking-widest">Step 3</span>
+            </div>
+            <h2 class="font-heading text-3xl sm:text-4xl font-bold text-navy mb-6">Production Framing</h2>
+            <p class="text-warm-gray leading-relaxed mb-8">This is where we shine. Our production framing crews deliver speed, quality, and consistency at scale. With 15M+ square feet framed annually, we have perfected the art and science of high-volume wood framing.</p>
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">High-volume production framing for multi-family and mixed-use</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Fire-resistance rated assemblies meeting all IBC requirements</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">JMP (Job Made Possible) process for maximum on-site efficiency</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Daily quality control inspections by dedicated QA team</span>
+              </li>
+            </ul>
+            <a href="/contact.html" class="inline-flex items-center px-6 py-3 bg-sky hover:bg-sky-dark text-white font-semibold text-sm rounded transition-all duration-200 shadow-md hover:shadow-lg">
+              Get a Framing Bid <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+            </a>
+          </div>
+          <div class="relative rounded-xl overflow-hidden shadow-lg">
+            <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80" alt="Production framing crew working on multi-family construction site" class="w-full h-[400px] object-cover">
+            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-navy/80 to-transparent p-6">
+              <p class="text-white text-sm font-semibold">15M+ sqft framed annually — the nation's largest</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Management -->
+    <section id="project-management" class="py-24 bg-gray-50 scroll-mt-36">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center reveal">
+          <div class="order-2 lg:order-1 relative rounded-xl overflow-hidden shadow-lg">
+            <img src="https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=800&q=80" alt="Aerial view of a large construction project being managed" class="w-full h-[400px] object-cover">
+            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-navy/80 to-transparent p-6">
+              <p class="text-white text-sm font-semibold">Real-time progress tracking with Fieldwire integration</p>
+            </div>
+          </div>
+          <div class="order-1 lg:order-2">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-10 h-10 rounded-lg bg-sky/10 flex items-center justify-center">
+                <i data-lucide="clipboard-check" class="w-5 h-5 text-sky"></i>
+              </div>
+              <span class="text-sky font-semibold text-sm uppercase tracking-widest">Step 4</span>
+            </div>
+            <h2 class="font-heading text-3xl sm:text-4xl font-bold text-navy mb-6">Project Management</h2>
+            <p class="text-warm-gray leading-relaxed mb-8">Every US Framing project is guided by our proprietary 7-step methodology. With dedicated project managers, real-time tracking, and weekly reporting, you always know exactly where your project stands.</p>
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">The "US Framing Way" — our proprietary 7-step methodology</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Dedicated project manager assigned to every job</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Real-time progress tracking and documentation via Fieldwire</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Safety-first culture with industry-leading 0.5 EMR</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Transparent communication with weekly progress reports</span>
+              </li>
+            </ul>
+            <a href="/contact.html" class="inline-flex items-center px-6 py-3 bg-sky hover:bg-sky-dark text-white font-semibold text-sm rounded transition-all duration-200 shadow-md hover:shadow-lg">
+              Learn About Our Process <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Takeover as a Service -->
+    <section id="takeover" class="py-24 scroll-mt-36">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center reveal">
+          <div>
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-10 h-10 rounded-lg bg-sky/10 flex items-center justify-center">
+                <i data-lucide="life-buoy" class="w-5 h-5 text-sky"></i>
+              </div>
+              <span class="text-sky font-semibold text-sm uppercase tracking-widest">Rescue &amp; Recovery</span>
+            </div>
+            <h2 class="font-heading text-3xl sm:text-4xl font-bold text-navy mb-6">Takeover as a Service</h2>
+            <p class="text-warm-gray leading-relaxed mb-8">When a framing project goes sideways, time is money. Our Takeover team mobilizes within 48 hours to assess, stabilize, and complete stalled projects. We have rescued dozens of projects that other framers walked away from.</p>
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">48-hour emergency mobilization anywhere in the US</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Rapid crew deployment for stalled or abandoned projects</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Structured assessment, stabilization, and completion plan</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">No project too far gone — we have seen it all</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Nationwide response capability with regional crew bases</span>
+              </li>
+            </ul>
+            <a href="/contact.html" class="inline-flex items-center px-6 py-3 bg-sky hover:bg-sky-dark text-white font-semibold text-sm rounded transition-all duration-200 shadow-md hover:shadow-lg">
+              Emergency Response <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+            </a>
+          </div>
+          <div class="relative rounded-xl overflow-hidden shadow-lg">
+            <img src="https://images.unsplash.com/photo-1574362848149-11496d93a7c7?w=800&q=80" alt="Active construction site being managed during takeover project" class="w-full h-[400px] object-cover">
+            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-navy/80 to-transparent p-6">
+              <p class="text-white text-sm font-semibold">48-hour mobilization — no project too far gone</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLT / Mass Timber -->
+    <section id="clt" class="py-24 bg-gray-50 scroll-mt-36">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center reveal">
+          <div class="order-2 lg:order-1 relative rounded-xl overflow-hidden shadow-lg">
+            <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80" alt="Modern mass timber commercial building with exposed CLT elements" class="w-full h-[400px] object-cover">
+            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-navy/80 to-transparent p-6">
+              <p class="text-white text-sm font-semibold">CLT — the future of sustainable high-rise construction</p>
+            </div>
+          </div>
+          <div class="order-1 lg:order-2">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-10 h-10 rounded-lg bg-sky/10 flex items-center justify-center">
+                <i data-lucide="trees" class="w-5 h-5 text-sky"></i>
+              </div>
+              <span class="text-sky font-semibold text-sm uppercase tracking-widest">Innovation</span>
+            </div>
+            <h2 class="font-heading text-3xl sm:text-4xl font-bold text-navy mb-6">CLT / Mass Timber</h2>
+            <p class="text-warm-gray leading-relaxed mb-8">Cross-laminated timber is revolutionizing construction. With the 2021 IBC code changes allowing wood buildings up to 18 stories (and engineered systems reaching 30), CLT delivers sustainable, beautiful, and fast-to-build structures.</p>
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Cross-laminated timber for buildings up to 30 floors</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Sustainable alternative to steel and concrete — 75% lower carbon</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Faster installation timelines — up to 25% quicker than conventional</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Beautiful exposed wood aesthetics for premium interiors</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-sky flex-shrink-0 mt-0.5"></i>
+                <span class="text-navy text-sm">Fire testing and building code compliance expertise</span>
+              </li>
+            </ul>
+            <a href="/contact.html" class="inline-flex items-center px-6 py-3 bg-sky hover:bg-sky-dark text-white font-semibold text-sm rounded transition-all duration-200 shadow-md hover:shadow-lg">
+              Explore CLT Solutions <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-24">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 reveal">
+          <p class="text-sky font-semibold text-sm uppercase tracking-widest mb-3">Common Questions</p>
+          <h2 class="font-heading text-4xl font-bold text-navy mb-4">Frequently Asked Questions</h2>
+          <p class="text-warm-gray text-lg">Everything you need to know about commercial wood framing with US Framing.</p>
+        </div>
+        <div class="space-y-4 reveal">
+          <!-- FAQ 1 -->
+          <div class="faq-item border border-gray-200 rounded-xl overflow-hidden">
+            <button class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:bg-gray-50 transition-colors" aria-expanded="false">
+              <span class="font-semibold text-navy pr-4">What types of projects does US Framing handle?</span>
+              <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-sky flex-shrink-0"></i>
+            </button>
+            <div class="faq-content px-6">
+              <p class="text-warm-gray text-sm leading-relaxed pb-6">US Framing specializes in large-scale multi-family residential, student housing, senior and assisted living, commercial, and mixed-use projects. We frame 15M+ square feet annually across the United States, handling projects from 50 to 800+ units. Our sweet spot is Type III and Type V multi-family projects, but we also take on commercial and CLT/mass timber work.</p>
+            </div>
+          </div>
+          <!-- FAQ 2 -->
+          <div class="faq-item border border-gray-200 rounded-xl overflow-hidden">
+            <button class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:bg-gray-50 transition-colors" aria-expanded="false">
+              <span class="font-semibold text-navy pr-4">How does BIM modeling benefit my framing project?</span>
+              <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-sky flex-shrink-0"></i>
+            </button>
+            <div class="faq-content px-6">
+              <p class="text-warm-gray text-sm leading-relaxed pb-6">Our MiTek Sapphire BIM modeling creates a complete 3D structural model before construction begins. This enables clash detection with other trades, material optimization reducing waste by up to 15%, accurate cost estimation, and faster on-site production because crews work from precise digital plans. BIM modeling typically saves 10-20% on project costs by catching issues before they become expensive field problems.</p>
+            </div>
+          </div>
+          <!-- FAQ 3 -->
+          <div class="faq-item border border-gray-200 rounded-xl overflow-hidden">
+            <button class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:bg-gray-50 transition-colors" aria-expanded="false">
+              <span class="font-semibold text-navy pr-4">What is Takeover as a Service?</span>
+              <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-sky flex-shrink-0"></i>
+            </button>
+            <div class="faq-content px-6">
+              <p class="text-warm-gray text-sm leading-relaxed pb-6">Takeover as a Service is our rapid response program for stalled or troubled framing projects. We can mobilize crews within 48 hours anywhere in the US, assess the current state, stabilize the project, and drive it to completion. Whether the previous framer walked off, fell behind schedule, or delivered substandard work, our experienced teams have the skills and capacity to get your project back on track.</p>
+            </div>
+          </div>
+          <!-- FAQ 4 -->
+          <div class="faq-item border border-gray-200 rounded-xl overflow-hidden">
+            <button class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:bg-gray-50 transition-colors" aria-expanded="false">
+              <span class="font-semibold text-navy pr-4">What is CLT and how tall can you build with it?</span>
+              <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-sky flex-shrink-0"></i>
+            </button>
+            <div class="faq-content px-6">
+              <p class="text-warm-gray text-sm leading-relaxed pb-6">Cross-Laminated Timber (CLT) is an engineered wood product made by layering boards at right angles and bonding them with structural adhesive. CLT buildings can reach up to 18 stories under the 2021 IBC code, with engineered hybrid systems reaching 30 floors. CLT offers faster construction times (up to 25% quicker), a 75% lower carbon footprint than steel or concrete, and beautiful exposed wood aesthetics that command premium rents.</p>
+            </div>
+          </div>
+          <!-- FAQ 5 -->
+          <div class="faq-item border border-gray-200 rounded-xl overflow-hidden">
+            <button class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:bg-gray-50 transition-colors" aria-expanded="false">
+              <span class="font-semibold text-navy pr-4">What regions does US Framing serve?</span>
+              <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-sky flex-shrink-0"></i>
+            </button>
+            <div class="faq-content px-6">
+              <p class="text-warm-gray text-sm leading-relaxed pb-6">US Framing operates nationwide with regional teams covering the Atlantic, Northeast, Midwest, West, South, Southeast, and Florida regions. Our national scale means consistent quality and competitive pricing wherever your project is located. We maintain regional offices and crew bases to ensure rapid mobilization and local expertise in every market we serve.</p>
+            </div>
+          </div>
+          <!-- FAQ 6 -->
+          <div class="faq-item border border-gray-200 rounded-xl overflow-hidden">
+            <button class="faq-toggle w-full flex items-center justify-between p-6 text-left hover:bg-gray-50 transition-colors" aria-expanded="false">
+              <span class="font-semibold text-navy pr-4">How does US Framing ensure quality and safety?</span>
+              <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-sky flex-shrink-0"></i>
+            </button>
+            <div class="faq-content px-6">
+              <p class="text-warm-gray text-sm leading-relaxed pb-6">Quality is built into our 7-step US Framing Way methodology. Every project receives daily inspections, dedicated project managers, and real-time progress tracking via Fieldwire. Our safety record speaks for itself with an industry-leading 0.5 EMR (Experience Modification Rate), well below the industry average of 1.0. We invest heavily in crew training, PPE, and site safety programs to protect our people and your investment.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="relative py-24">
+      <div class="absolute inset-0">
+        <img src="https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?w=1920&q=80" alt="Wood framing construction in progress" class="w-full h-full object-cover">
+        <div class="hero-overlay absolute inset-0"></div>
+      </div>
+      <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center reveal">
+        <h2 class="font-heading text-4xl sm:text-5xl font-bold text-white mb-6">Let Us Build Your Vision</h2>
+        <p class="text-white/70 text-lg mb-10 max-w-2xl mx-auto">From pre-design modeling to the final inspection, US Framing delivers precision, speed, and reliability. Request a detailed bid for your next project.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/contact.html" class="inline-flex items-center justify-center px-8 py-4 bg-sky hover:bg-sky-dark text-white font-semibold text-lg rounded transition-all duration-200 shadow-lg hover:shadow-xl">
+            Request a Bid
+            <i data-lucide="arrow-right" class="w-5 h-5 ml-2"></i>
+          </a>
+          <a href="tel:+15022760284" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white/30 text-white hover:bg-white/10 font-semibold text-lg rounded transition-all duration-200">
+            <i data-lucide="phone" class="w-5 h-5 mr-2"></i>
+            (502) 276-0284
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-navy-dark pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+        <div>
+          <div class="flex items-center gap-2 mb-4">
+            <span class="font-heading text-2xl font-bold text-white">US</span>
+            <span class="w-0.5 h-6 bg-sky rounded-full"></span>
+            <span class="font-body text-lg font-light text-white tracking-widest">FRAMING</span>
+          </div>
+          <p class="text-sm text-white/50 mb-6 leading-relaxed">Nation's largest multi-family wood framing group. 15M+ sqft framed annually. Part of the US Family of Companies.</p>
+          <div class="flex items-center gap-4">
+            <a href="https://www.linkedin.com/company/us-framing" target="_blank" rel="noopener" aria-label="LinkedIn" class="text-white/40 hover:text-sky-light transition-colors">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/usframing" target="_blank" rel="noopener" aria-label="Facebook" class="text-white/40 hover:text-sky-light transition-colors">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385h-3.047v-3.47h3.047v-2.642c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953h-1.514c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385c5.738-.9 10.126-5.864 10.126-11.854z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="font-body text-sm font-semibold text-white uppercase tracking-wider mb-4">Services</h4>
+          <ul class="space-y-2.5">
+            <li><a href="/services.html#pre-design" class="text-sm text-white/50 hover:text-sky-light transition-colors">Pre-Design &amp; 3-D Modeling</a></li>
+            <li><a href="/services.html#pre-construction" class="text-sm text-white/50 hover:text-sky-light transition-colors">Pre-Construction</a></li>
+            <li><a href="/services.html#construction" class="text-sm text-white/50 hover:text-sky-light transition-colors">Production Framing</a></li>
+            <li><a href="/services.html#project-management" class="text-sm text-white/50 hover:text-sky-light transition-colors">Project Management</a></li>
+            <li><a href="/services.html#takeover" class="text-sm text-white/50 hover:text-sky-light transition-colors">Takeover as a Service</a></li>
+            <li><a href="/services.html#clt" class="text-sm text-white/50 hover:text-sky-light transition-colors">CLT / Mass Timber</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-body text-sm font-semibold text-white uppercase tracking-wider mb-4">Company</h4>
+          <ul class="space-y-2.5">
+            <li><a href="/about.html" class="text-sm text-white/50 hover:text-sky-light transition-colors">About Us</a></li>
+            <li><a href="/projects.html" class="text-sm text-white/50 hover:text-sky-light transition-colors">Projects</a></li>
+            <li><a href="/blog.html" class="text-sm text-white/50 hover:text-sky-light transition-colors">Insights</a></li>
+            <li><a href="/contact.html" class="text-sm text-white/50 hover:text-sky-light transition-colors">Contact</a></li>
+            <li><a href="https://us-drywall.onrender.com" target="_blank" rel="noopener" class="text-sm text-white/50 hover:text-sky-light transition-colors">US Drywall</a></li>
+            <li><a href="https://us-exteriors.onrender.com" target="_blank" rel="noopener" class="text-sm text-white/50 hover:text-sky-light transition-colors">US Exteriors</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-body text-sm font-semibold text-white uppercase tracking-wider mb-4">Contact</h4>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3"><i data-lucide="map-pin" class="w-4 h-4 text-sky-light mt-0.5 flex-shrink-0"></i><span class="text-sm text-white/50">P.O. Box 710<br>Pewee Valley, KY 40056</span></li>
+            <li class="flex items-center gap-3"><i data-lucide="phone" class="w-4 h-4 text-sky-light flex-shrink-0"></i><a href="tel:+15022760284" class="text-sm text-white/50 hover:text-sky-light transition-colors">(502) 276-0284</a></li>
+            <li class="flex items-center gap-3"><i data-lucide="mail" class="w-4 h-4 text-sky-light flex-shrink-0"></i><a href="mailto:info@usframing.com" class="text-sm text-white/50 hover:text-sky-light transition-colors">info@usframing.com</a></li>
+            <li class="flex items-center gap-3"><i data-lucide="clock" class="w-4 h-4 text-sky-light flex-shrink-0"></i><span class="text-sm text-white/50">Mon-Fri: 7:00 AM - 5:00 PM</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-white/10 pt-8 mb-8">
+        <p class="text-xs text-white/30 text-center">Serving Nationwide — Atlantic, Northeast, Midwest, West, South, Southeast, and Florida Regions</p>
+      </div>
+      <div class="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p class="text-xs text-white/30">&copy; 2026 US Framing International. All rights reserved. A US Family of Companies partner.</p>
+        <div class="flex items-center gap-6">
+          <a href="/privacy-policy.html" class="text-xs text-white/30 hover:text-white/50 transition-colors">Privacy Policy</a>
+          <a href="/terms.html" class="text-xs text-white/30 hover:text-white/50 transition-colors">Terms of Service</a>
+          <a href="/sitemap.xml" class="text-xs text-white/30 hover:text-white/50 transition-colors">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuClose = document.getElementById('mobile-menu-close');
+    menuBtn.addEventListener('click', () => { mobileMenu.classList.remove('hidden'); document.body.style.overflow = 'hidden'; });
+    menuClose.addEventListener('click', () => { mobileMenu.classList.add('hidden'); document.body.style.overflow = ''; });
+    mobileMenu.querySelectorAll('a').forEach(link => { link.addEventListener('click', () => { mobileMenu.classList.add('hidden'); document.body.style.overflow = ''; }); });
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => { navbar.classList.toggle('nav-scrolled', window.scrollY > 50); });
+
+    // Scroll reveal
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.reveal, .stagger').forEach(el => revealObserver.observe(el));
+
+    // FAQ accordion
+    document.querySelectorAll('.faq-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const content = btn.nextElementSibling;
+        const chevron = btn.querySelector('.faq-chevron');
+        const isOpen = content.classList.contains('open');
+
+        // Close all others
+        document.querySelectorAll('.faq-content').forEach(c => c.classList.remove('open'));
+        document.querySelectorAll('.faq-chevron').forEach(c => c.classList.remove('open'));
+        document.querySelectorAll('.faq-toggle').forEach(b => b.setAttribute('aria-expanded', 'false'));
+
+        if (!isOpen) {
+          content.classList.add('open');
+          chevron.classList.add('open');
+          btn.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+
+    // Reduced motion
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.querySelectorAll('.reveal, .stagger, .stagger > *').forEach(el => {
+        el.style.opacity = '1';
+        el.style.transform = 'none';
+        el.style.transition = 'none';
+      });
+    }
+  </script>
+</body>
+</html>

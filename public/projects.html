@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects &amp; Portfolio | US Framing | Multi-Family Wood Framing</title>
+  <meta name="description" content="Browse US Framing's portfolio of multi-family, student housing, assisted living, CLT, and commercial wood framing projects across the United States.">
+  <link rel="canonical" href="https://us-framing.onrender.com/projects.html">
+
+  <meta property="og:title" content="Projects & Portfolio | US Framing">
+  <meta property="og:description" content="Browse our portfolio of commercial wood framing projects nationwide. Multi-family, student housing, senior living, CLT, and more.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://us-framing.onrender.com/projects.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&q=80">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'navy': { DEFAULT: '#1B2A4A', dark: '#0F1A2E', light: '#2A3F6B' },
+            'sky': { DEFAULT: '#4A90D9', dark: '#3A7BC8', light: '#6BA8E8' },
+            'warm-gray': { DEFAULT: '#8B8589', dark: '#6B6569', light: '#A8A3A7' },
+          },
+          fontFamily: {
+            'heading': ['Playfair Display', 'Georgia', 'serif'],
+            'body': ['Inter', 'system-ui', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .font-heading { font-family: 'Playfair Display', Georgia, serif; }
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .stagger > * { opacity: 0; transform: translateY(24px); transition: opacity 0.5s ease, transform 0.5s ease; }
+    .stagger.visible > *:nth-child(1) { transition-delay: 0ms; opacity: 1; transform: translateY(0); }
+    .stagger.visible > *:nth-child(2) { transition-delay: 100ms; opacity: 1; transform: translateY(0); }
+    .stagger.visible > *:nth-child(3) { transition-delay: 200ms; opacity: 1; transform: translateY(0); }
+    .stagger.visible > *:nth-child(4) { transition-delay: 300ms; opacity: 1; transform: translateY(0); }
+    .stagger.visible > *:nth-child(5) { transition-delay: 400ms; opacity: 1; transform: translateY(0); }
+    .stagger.visible > *:nth-child(6) { transition-delay: 500ms; opacity: 1; transform: translateY(0); }
+    .hero-overlay { background: linear-gradient(135deg, rgba(15,26,46,0.85) 0%, rgba(27,42,74,0.7) 100%); }
+    .card-hover { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .card-hover:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(27,42,74,0.12); }
+    .nav-scrolled { box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+    html { scroll-behavior: smooth; }
+    a:focus-visible, button:focus-visible { outline: 2px solid #4A90D9; outline-offset: 2px; border-radius: 4px; }
+    .skip-link { position: absolute; top: -100%; left: 50%; transform: translateX(-50%); z-index: 100; }
+    .skip-link:focus { top: 8px; }
+    .filter-btn.active { background-color: #4A90D9; color: white; border-color: #4A90D9; }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://us-framing.onrender.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Projects", "item": "https://us-framing.onrender.com/projects.html" }
+    ]
+  }
+  </script>
+</head>
+<body class="bg-white text-navy">
+
+  <a href="#main-content" class="skip-link bg-sky text-white px-4 py-2 rounded font-semibold text-sm">Skip to main content</a>
+
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <a href="/" class="flex items-center gap-3 group" aria-label="US Framing Home">
+          <span class="font-heading text-3xl font-bold text-navy">US</span>
+          <span class="w-0.5 h-8 bg-sky rounded-full"></span>
+          <div class="flex flex-col">
+            <span class="font-body text-xl font-light text-navy tracking-widest">FRAMING</span>
+            <span class="font-body text-[9px] font-medium text-sky tracking-[0.2em] -mt-0.5">COMMERCIAL WOOD FRAMING</span>
+          </div>
+        </a>
+        <div class="hidden lg:flex items-center gap-8">
+          <a href="/" class="text-sm font-medium text-navy hover:text-sky transition-colors">Home</a>
+          <a href="/services.html" class="text-sm font-medium text-navy hover:text-sky transition-colors">Services</a>
+          <a href="/projects.html" class="text-sm font-medium text-sky transition-colors">Projects</a>
+          <a href="/about.html" class="text-sm font-medium text-navy hover:text-sky transition-colors">About</a>
+          <a href="/blog.html" class="text-sm font-medium text-navy hover:text-sky transition-colors">Insights</a>
+          <a href="/contact.html" class="text-sm font-medium text-navy hover:text-sky transition-colors">Contact</a>
+          <a href="/contact.html" class="inline-flex items-center px-6 py-2.5 bg-sky hover:bg-sky-dark text-white font-semibold text-sm rounded transition-all duration-200 shadow-md hover:shadow-lg">Request a Bid</a>
+        </div>
+        <button id="mobile-menu-btn" class="lg:hidden p-2 text-navy" aria-label="Open navigation menu" aria-expanded="false">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden fixed inset-0 bg-navy/95 z-50 lg:hidden">
+      <div class="flex flex-col items-center justify-center h-full gap-8">
+        <button id="mobile-menu-close" class="absolute top-6 right-6 text-white p-2" aria-label="Close navigation menu">
+          <i data-lucide="x" class="w-8 h-8"></i>
+        </button>
+        <a href="/" class="text-2xl font-heading text-white hover:text-sky transition-colors">Home</a>
+        <a href="/services.html" class="text-2xl font-heading text-white hover:text-sky transition-colors">Services</a>
+        <a href="/projects.html" class="text-2xl font-heading text-sky transition-colors">Projects</a>
+        <a href="/about.html" class="text-2xl font-heading text-white hover:text-sky transition-colors">About</a>
+        <a href="/blog.html" class="text-2xl font-heading text-white hover:text-sky transition-colors">Insights</a>
+        <a href="/contact.html" class="text-2xl font-heading text-white hover:text-sky transition-colors">Contact</a>
+        <a href="/contact.html" class="mt-4 px-8 py-3 bg-sky text-white font-semibold text-lg rounded">Request a Bid</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- Hero -->
+    <section class="relative pt-32 pb-20 bg-navy-dark">
+      <div class="absolute inset-0 opacity-10">
+        <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1920&q=80" alt="" class="w-full h-full object-cover" aria-hidden="true">
+      </div>
+      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav aria-label="Breadcrumb" class="mb-6">
+          <ol class="flex items-center gap-2 text-sm">
+            <li><a href="/" class="text-white/50 hover:text-sky-light transition-colors">Home</a></li>
+            <li class="text-white/30">/</li>
+            <li class="text-sky-light font-medium">Projects</li>
+          </ol>
+        </nav>
+        <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">Our Projects</h1>
+        <p class="text-white/70 text-lg max-w-2xl leading-relaxed">From 50-unit communities to 800-bed student housing complexes, explore the projects that have made US Framing the nation's most trusted wood framing partner.</p>
+      </div>
+    </section>
+
+    <!-- Filter Bar -->
+    <section class="sticky top-20 z-40 bg-white border-b border-gray-200 shadow-sm">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center gap-2 overflow-x-auto py-4 -mx-4 px-4">
+          <button class="filter-btn active flex-shrink-0 px-5 py-2 text-sm font-semibold rounded-full border border-sky transition-all duration-200" data-filter="all">All Projects</button>
+          <button class="filter-btn flex-shrink-0 px-5 py-2 text-sm font-semibold text-navy rounded-full border border-gray-200 hover:border-sky hover:text-sky transition-all duration-200" data-filter="multi-family">Multi-Family</button>
+          <button class="filter-btn flex-shrink-0 px-5 py-2 text-sm font-semibold text-navy rounded-full border border-gray-200 hover:border-sky hover:text-sky transition-all duration-200" data-filter="student-housing">Student Housing</button>
+          <button class="filter-btn flex-shrink-0 px-5 py-2 text-sm font-semibold text-navy rounded-full border border-gray-200 hover:border-sky hover:text-sky transition-all duration-200" data-filter="assisted-living">Assisted Living</button>
+          <button class="filter-btn flex-shrink-0 px-5 py-2 text-sm font-semibold text-navy rounded-full border border-gray-200 hover:border-sky hover:text-sky transition-all duration-200" data-filter="clt">CLT / Timber</button>
+          <button class="filter-btn flex-shrink-0 px-5 py-2 text-sm font-semibold text-navy rounded-full border border-gray-200 hover:border-sky hover:text-sky transition-all duration-200" data-filter="commercial">Commercial</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Grid -->
+    <section class="py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div id="project-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+
+          <!-- Lakewood Apartments -->
+          <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-md card-hover" data-category="multi-family">
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&q=80" alt="Lakewood Apartments multi-family residential project in Louisville Kentucky" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute top-3 left-3">
+                <span class="px-3 py-1 bg-sky text-white text-xs font-semibold rounded-full uppercase tracking-wider">Multi-Family</span>
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="font-heading text-lg font-bold text-navy mb-2">Lakewood Apartments</h3>
+              <p class="text-warm-gray text-sm leading-relaxed mb-4">450-unit Type V multi-family community featuring 3-story walk-ups and 4-story elevator buildings. Full BIM modeling with MiTek Sapphire. Completed 2 weeks ahead of schedule.</p>
+              <div class="flex items-center gap-4 text-xs text-warm-gray mb-3">
+                <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3"></i> Louisville, KY</span>
+                <span class="flex items-center gap-1"><i data-lucide="ruler" class="w-3 h-3"></i> 380,000 SF</span>
+              </div>
+              <div class="flex items-center justify-between pt-3 border-t border-gray-100">
+                <span class="text-xs text-warm-gray">GC: Turner Construction</span>
+                <span class="text-xs font-semibold text-sky">450 Units</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Campus Village at UK -->
+          <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-md card-hover" data-category="student-housing">
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" alt="Campus Village student housing project at University of Kentucky" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute top-3 left-3">
+                <span class="px-3 py-1 bg-indigo-600 text-white text-xs font-semibold rounded-full uppercase tracking-wider">Student Housing</span>
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="font-heading text-lg font-bold text-navy mb-2">Campus Village at UK</h3>
+              <p class="text-warm-gray text-sm leading-relaxed mb-4">800-bed purpose-built student housing near the University of Kentucky. Mixed unit types from studios to 4-bedroom suites with integrated study spaces and amenity buildings.</p>
+              <div class="flex items-center gap-4 text-xs text-warm-gray mb-3">
+                <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3"></i> Lexington, KY</span>
+                <span class="flex items-center gap-1"><i data-lucide="ruler" class="w-3 h-3"></i> 290,000 SF</span>
+              </div>
+              <div class="flex items-center justify-between pt-3 border-t border-gray-100">
+                <span class="text-xs text-warm-gray">GC: Messer Construction</span>
+                <span class="text-xs font-semibold text-sky">800 Beds</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sunrise Senior Living -->
+          <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-md card-hover" data-category="assisted-living">
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1460317442991-0ec209397118?w=600&q=80" alt="Sunrise Senior Living assisted living facility in Nashville Tennessee" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute top-3 left-3">
+                <span class="px-3 py-1 bg-emerald-600 text-white text-xs font-semibold rounded-full uppercase tracking-wider">Assisted Living</span>
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="font-heading text-lg font-bold text-navy mb-2">Sunrise Senior Living</h3>
+              <p class="text-warm-gray text-sm leading-relaxed mb-4">180-bed assisted living and memory care community. Complex fire-resistance rated assemblies with accessible design throughout. Includes common dining, therapy, and activity spaces.</p>
+              <div class="flex items-center gap-4 text-xs text-warm-gray mb-3">
+                <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3"></i> Nashville, TN</span>
+                <span class="flex items-center gap-1"><i data-lucide="ruler" class="w-3 h-3"></i> 165,000 SF</span>
+              </div>
+              <div class="flex items-center justify-between pt-3 border-t border-gray-100">
+                <span class="text-xs text-warm-gray">GC: Brasfield &amp; Gorrie</span>
+                <span class="text-xs font-semibold text-sky">180 Beds</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- The Timbers at Red Bank -->
+          <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-md card-hover" data-category="clt">
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=80" alt="The Timbers at Red Bank CLT mass timber building in Cincinnati Ohio" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute top-3 left-3">
+                <span class="px-3 py-1 bg-amber-700 text-white text-xs font-semibold rounded-full uppercase tracking-wider">CLT / Timber</span>
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="font-heading text-lg font-bold text-navy mb-2">The Timbers at Red Bank</h3>
+              <p class="text-warm-gray text-sm leading-relaxed mb-4">8-story cross-laminated timber mixed-use building. One of the tallest CLT structures in the Midwest. Exposed timber ceilings with integrated MEP coordination. LEED Gold certified.</p>
+              <div class="flex items-center gap-4 text-xs text-warm-gray mb-3">
+                <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3"></i> Cincinnati, OH</span>
+                <span class="flex items-center gap-1"><i data-lucide="ruler" class="w-3 h-3"></i> 210,000 SF</span>
+              </div>
+              <div class="flex items-center justify-between pt-3 border-t border-gray-100">
+                <span class="text-xs text-warm-gray">GC: Skanska USA</span>
+                <span class="text-xs font-semibold text-sky">8 Stories</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Meadow Creek Townhomes -->
+          <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-md card-hover" data-category="multi-family">
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" alt="Meadow Creek Townhomes multi-family project in Indianapolis Indiana" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute top-3 left-3">
+                <span class="px-3 py-1 bg-sky text-white text-xs font-semibold rounded-full uppercase tracking-wider">Multi-Family</span>
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="font-heading text-lg font-bold text-navy mb-2">Meadow Creek Townhomes</h3>
+              <p class="text-warm-gray text-sm leading-relaxed mb-4">240-unit townhome community with attached 2-car garages. Production framing across 60 buildings with accelerated phasing allowing concurrent occupancy and construction.</p>
+              <div class="flex items-center gap-4 text-xs text-warm-gray mb-3">
+                <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3"></i> Indianapolis, IN</span>
+                <span class="flex items-center gap-1"><i data-lucide="ruler" class="w-3 h-3"></i> 195,000 SF</span>
+              </div>
+              <div class="flex items-center justify-between pt-3 border-t border-gray-100">
+                <span class="text-xs text-warm-gray">GC: Flaherty &amp; Collins</span>
+                <span class="text-xs font-semibold text-sky">240 Units</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Patriot Place -->
+          <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-md card-hover" data-category="student-housing">
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?w=600&q=80" alt="Patriot Place student housing project in Columbus Ohio" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute top-3 left-3">
+                <span class="px-3 py-1 bg-indigo-600 text-white text-xs font-semibold rounded-full uppercase tracking-wider">Student Housing</span>
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="font-heading text-lg font-bold text-navy mb-2">Patriot Place</h3>
+              <p class="text-warm-gray text-sm leading-relaxed mb-4">600-bed student housing complex near Ohio State University. 5-story Type III-A construction with podium parking. Clubhouse, pool deck, and fitness center included in scope.</p>
+              <div class="flex items-center gap-4 text-xs text-warm-gray mb-3">
+                <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3"></i> Columbus, OH</span>
+                <span class="flex items-center gap-1"><i data-lucide="ruler" class="w-3 h-3"></i> 245,000 SF</span>
+              </div>
+              <div class="flex items-center justify-between pt-3 border-t border-gray-100">
+                <span class="text-xs text-warm-gray">GC: Gilbane Building Co.</span>
+                <span class="text-xs font-semibold text-sky">600 Beds</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Harbor Point Condominiums -->
+          <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-md card-hover" data-category="multi-family">
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=600&q=80" alt="Harbor Point Condominiums multi-family project in Tampa Florida" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute top-3 left-3">
+                <span class="px-3 py-1 bg-sky text-white text-xs font-semibold rounded-full uppercase tracking-wider">Multi-Family</span>
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="font-heading text-lg font-bold text-navy mb-2">Harbor Point Condominiums</h3>
+              <p class="text-warm-gray text-sm leading-relaxed mb-4">320-unit waterfront condominium community in Tampa. Hurricane-rated framing with Simpson Strong-Tie connectors. Complex roof geometry with multiple hip and valley intersections.</p>
+              <div class="flex items-center gap-4 text-xs text-warm-gray mb-3">
+                <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3"></i> Tampa, FL</span>
+                <span class="flex items-center gap-1"><i data-lucide="ruler" class="w-3 h-3"></i> 275,000 SF</span>
+              </div>
+              <div class="flex items-center justify-between pt-3 border-t border-gray-100">
+                <span class="text-xs text-warm-gray">GC: Balfour Beatty</span>
+                <span class="text-xs font-semibold text-sky">320 Units</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ironwood Commerce Center -->
+          <div class="project-card group relative overflow-hidden rounded-xl bg-white shadow-md card-hover" data-category="commercial">
+            <div class="relative h-56 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80" alt="Ironwood Commerce Center commercial warehouse project in Atlanta Georgia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <div class="absolute top-3 left-3">
+                <span class="px-3 py-1 bg-warm-gray text-white text-xs font-semibold rounded-full uppercase tracking-wider">Commercial</span>
+              </div>
+            </div>
+            <div class="p-5">
+              <h3 class="font-heading text-lg font-bold text-navy mb-2">Ironwood Commerce Center</h3>
+              <p class="text-warm-gray text-sm leading-relaxed mb-4">Mixed-use commercial center with office space and light industrial warehouse. Heavy timber trusses with open floorplans. Includes a 2-story office component with exposed beam ceilings.</p>
+              <div class="flex items-center gap-4 text-xs text-warm-gray mb-3">
+                <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3"></i> Atlanta, GA</span>
+                <span class="flex items-center gap-1"><i data-lucide="ruler" class="w-3 h-3"></i> 150,000 SF</span>
+              </div>
+              <div class="flex items-center justify-between pt-3 border-t border-gray-100">
+                <span class="text-xs text-warm-gray">GC: Holder Construction</span>
+                <span class="text-xs font-semibold text-sky">150K SF</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- No results message -->
+        <div id="no-results" class="hidden text-center py-16">
+          <i data-lucide="search-x" class="w-12 h-12 text-warm-gray/50 mx-auto mb-4"></i>
+          <p class="text-warm-gray text-lg">No projects found for this category.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="py-16 bg-gray-50 reveal">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+          <div>
+            <span class="text-3xl sm:text-4xl font-bold text-navy">15M+</span>
+            <p class="text-warm-gray text-sm mt-1">Sqft Framed Annually</p>
+          </div>
+          <div>
+            <span class="text-3xl sm:text-4xl font-bold text-navy">10,000+</span>
+            <p class="text-warm-gray text-sm mt-1">Units Completed</p>
+          </div>
+          <div>
+            <span class="text-3xl sm:text-4xl font-bold text-navy">7</span>
+            <p class="text-warm-gray text-sm mt-1">US Regions Served</p>
+          </div>
+          <div>
+            <span class="text-3xl sm:text-4xl font-bold text-navy">0.5</span>
+            <p class="text-warm-gray text-sm mt-1">EMR Safety Rating</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="relative py-24">
+      <div class="absolute inset-0">
+        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&q=80" alt="Wood framing construction in progress" class="w-full h-full object-cover">
+        <div class="hero-overlay absolute inset-0"></div>
+      </div>
+      <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center reveal">
+        <h2 class="font-heading text-4xl sm:text-5xl font-bold text-white mb-6">Let Us Build Something Together</h2>
+        <p class="text-white/70 text-lg mb-10 max-w-2xl mx-auto">Your project could be our next success story. Whether multi-family, student housing, senior living, or CLT, our team is ready. Get a detailed bid within 48 hours.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/contact.html" class="inline-flex items-center justify-center px-8 py-4 bg-sky hover:bg-sky-dark text-white font-semibold text-lg rounded transition-all duration-200 shadow-lg hover:shadow-xl">
+            Request a Bid
+            <i data-lucide="arrow-right" class="w-5 h-5 ml-2"></i>
+          </a>
+          <a href="tel:+15022760284" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white/30 text-white hover:bg-white/10 font-semibold text-lg rounded transition-all duration-200">
+            <i data-lucide="phone" class="w-5 h-5 mr-2"></i>
+            (502) 276-0284
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-navy-dark pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+        <div>
+          <div class="flex items-center gap-2 mb-4">
+            <span class="font-heading text-2xl font-bold text-white">US</span>
+            <span class="w-0.5 h-6 bg-sky rounded-full"></span>
+            <span class="font-body text-lg font-light text-white tracking-widest">FRAMING</span>
+          </div>
+          <p class="text-sm text-white/50 mb-6 leading-relaxed">Nation's largest multi-family wood framing group. 15M+ sqft framed annually. Part of the US Family of Companies.</p>
+          <div class="flex items-center gap-4">
+            <a href="https://www.linkedin.com/company/us-framing" target="_blank" rel="noopener" aria-label="LinkedIn" class="text-white/40 hover:text-sky-light transition-colors">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/usframing" target="_blank" rel="noopener" aria-label="Facebook" class="text-white/40 hover:text-sky-light transition-colors">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385h-3.047v-3.47h3.047v-2.642c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953h-1.514c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385c5.738-.9 10.126-5.864 10.126-11.854z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="font-body text-sm font-semibold text-white uppercase tracking-wider mb-4">Services</h4>
+          <ul class="space-y-2.5">
+            <li><a href="/services.html#pre-design" class="text-sm text-white/50 hover:text-sky-light transition-colors">Pre-Design &amp; 3-D Modeling</a></li>
+            <li><a href="/services.html#pre-construction" class="text-sm text-white/50 hover:text-sky-light transition-colors">Pre-Construction</a></li>
+            <li><a href="/services.html#construction" class="text-sm text-white/50 hover:text-sky-light transition-colors">Production Framing</a></li>
+            <li><a href="/services.html#project-management" class="text-sm text-white/50 hover:text-sky-light transition-colors">Project Management</a></li>
+            <li><a href="/services.html#takeover" class="text-sm text-white/50 hover:text-sky-light transition-colors">Takeover as a Service</a></li>
+            <li><a href="/services.html#clt" class="text-sm text-white/50 hover:text-sky-light transition-colors">CLT / Mass Timber</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-body text-sm font-semibold text-white uppercase tracking-wider mb-4">Company</h4>
+          <ul class="space-y-2.5">
+            <li><a href="/about.html" class="text-sm text-white/50 hover:text-sky-light transition-colors">About Us</a></li>
+            <li><a href="/projects.html" class="text-sm text-white/50 hover:text-sky-light transition-colors">Projects</a></li>
+            <li><a href="/blog.html" class="text-sm text-white/50 hover:text-sky-light transition-colors">Insights</a></li>
+            <li><a href="/contact.html" class="text-sm text-white/50 hover:text-sky-light transition-colors">Contact</a></li>
+            <li><a href="https://us-drywall.onrender.com" target="_blank" rel="noopener" class="text-sm text-white/50 hover:text-sky-light transition-colors">US Drywall</a></li>
+            <li><a href="https://us-exteriors.onrender.com" target="_blank" rel="noopener" class="text-sm text-white/50 hover:text-sky-light transition-colors">US Exteriors</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-body text-sm font-semibold text-white uppercase tracking-wider mb-4">Contact</h4>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3"><i data-lucide="map-pin" class="w-4 h-4 text-sky-light mt-0.5 flex-shrink-0"></i><span class="text-sm text-white/50">P.O. Box 710<br>Pewee Valley, KY 40056</span></li>
+            <li class="flex items-center gap-3"><i data-lucide="phone" class="w-4 h-4 text-sky-light flex-shrink-0"></i><a href="tel:+15022760284" class="text-sm text-white/50 hover:text-sky-light transition-colors">(502) 276-0284</a></li>
+            <li class="flex items-center gap-3"><i data-lucide="mail" class="w-4 h-4 text-sky-light flex-shrink-0"></i><a href="mailto:info@usframing.com" class="text-sm text-white/50 hover:text-sky-light transition-colors">info@usframing.com</a></li>
+            <li class="flex items-center gap-3"><i data-lucide="clock" class="w-4 h-4 text-sky-light flex-shrink-0"></i><span class="text-sm text-white/50">Mon-Fri: 7:00 AM - 5:00 PM</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-white/10 pt-8 mb-8">
+        <p class="text-xs text-white/30 text-center">Serving Nationwide — Atlantic, Northeast, Midwest, West, South, Southeast, and Florida Regions</p>
+      </div>
+      <div class="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p class="text-xs text-white/30">&copy; 2026 US Framing International. All rights reserved. A US Family of Companies partner.</p>
+        <div class="flex items-center gap-6">
+          <a href="/privacy-policy.html" class="text-xs text-white/30 hover:text-white/50 transition-colors">Privacy Policy</a>
+          <a href="/terms.html" class="text-xs text-white/30 hover:text-white/50 transition-colors">Terms of Service</a>
+          <a href="/sitemap.xml" class="text-xs text-white/30 hover:text-white/50 transition-colors">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuClose = document.getElementById('mobile-menu-close');
+    menuBtn.addEventListener('click', () => { mobileMenu.classList.remove('hidden'); document.body.style.overflow = 'hidden'; });
+    menuClose.addEventListener('click', () => { mobileMenu.classList.add('hidden'); document.body.style.overflow = ''; });
+    mobileMenu.querySelectorAll('a').forEach(link => { link.addEventListener('click', () => { mobileMenu.classList.add('hidden'); document.body.style.overflow = ''; }); });
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => { navbar.classList.toggle('nav-scrolled', window.scrollY > 50); });
+
+    // Scroll reveal
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.reveal, .stagger').forEach(el => revealObserver.observe(el));
+
+    // Project filter
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+    const noResults = document.getElementById('no-results');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Update active button
+        filterBtns.forEach(b => {
+          b.classList.remove('active');
+          b.classList.add('text-navy');
+        });
+        btn.classList.add('active');
+        btn.classList.remove('text-navy');
+
+        const filter = btn.getAttribute('data-filter');
+        let visibleCount = 0;
+
+        projectCards.forEach(card => {
+          if (filter === 'all' || card.getAttribute('data-category') === filter) {
+            card.style.display = '';
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(16px)';
+            requestAnimationFrame(() => {
+              card.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+              card.style.opacity = '1';
+              card.style.transform = 'translateY(0)';
+            });
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        // Show/hide no results message
+        if (visibleCount === 0) {
+          noResults.classList.remove('hidden');
+        } else {
+          noResults.classList.add('hidden');
+        }
+      });
+    });
+
+    // Reduced motion
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.querySelectorAll('.reveal, .stagger, .stagger > *').forEach(el => {
+        el.style.opacity = '1';
+        el.style.transform = 'none';
+        el.style.transition = 'none';
+      });
+    }
+  </script>
+</body>
+</html>

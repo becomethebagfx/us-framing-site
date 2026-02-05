@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | US Framing International | Nation's Largest Multi-Family Wood Framing Group</title>
+  <meta name="description" content="US Framing International is the nation's largest multi-family wood framing group, framing 15M+ sqft annually. Founded in the early 1990s by Thomas English, based in Pewee Valley, KY.">
+  <link rel="canonical" href="https://usframing.com/about.html">
+
+  <meta property="og:title" content="About Us | US Framing International">
+  <meta property="og:description" content="Nation's largest multi-family wood framing group. 15M+ sqft/year. Founded by Thomas English in the early 1990s.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://usframing.com/about.html">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'navy': { DEFAULT: '#1B2A4A', dark: '#0F1A2E', light: '#2A3F6B' },
+            'sky': { DEFAULT: '#4A90D9', dark: '#3A7BC8', light: '#6BA8E8' },
+            'warm-gray': { DEFAULT: '#8B8589', dark: '#6B6569', light: '#A8A3A7' },
+          },
+          fontFamily: {
+            'heading': ['Playfair Display', 'Georgia', 'serif'],
+            'body': ['Inter', 'system-ui', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .font-heading { font-family: 'Playfair Display', Georgia, serif; }
+    .hero-overlay { background: linear-gradient(135deg, rgba(15,26,46,0.85) 0%, rgba(27,42,74,0.7) 100%); }
+    .nav-scrolled { box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+    html { scroll-behavior: smooth; }
+    a:focus-visible, button:focus-visible { outline: 2px solid #4A90D9; outline-offset: 2px; border-radius: 4px; }
+    .skip-link { position: absolute; top: -100%; left: 50%; transform: translateX(-50%); z-index: 100; }
+    .skip-link:focus { top: 8px; }
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .stagger > * { opacity: 0; transform: translateY(24px); transition: opacity 0.5s ease, transform 0.5s ease; }
+    .stagger.visible > *:nth-child(1) { transition-delay: 0ms; opacity: 1; transform: translateY(0); }
+    .stagger.visible > *:nth-child(2) { transition-delay: 100ms; opacity: 1; transform: translateY(0); }
+    .stagger.visible > *:nth-child(3) { transition-delay: 200ms; opacity: 1; transform: translateY(0); }
+    .stagger.visible > *:nth-child(4) { transition-delay: 300ms; opacity: 1; transform: translateY(0); }
+    .stagger.visible > *:nth-child(5) { transition-delay: 400ms; opacity: 1; transform: translateY(0); }
+    .card-hover { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .card-hover:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(27,42,74,0.12); }
+  </style>
+
+  <!-- BreadcrumbList Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://usframing.com/" },
+      { "@type": "ListItem", "position": 2, "name": "About", "item": "https://usframing.com/about.html" }
+    ]
+  }
+  </script>
+
+  <!-- Organization Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "US Framing International",
+    "description": "Nation's largest multi-family wood framing group, framing 15M+ sqft annually. Commercial wood framing, BIM modeling, pre-construction, CLT/mass timber.",
+    "url": "https://usframing.com",
+    "foundingDate": "1990",
+    "founder": {
+      "@type": "Person",
+      "name": "Thomas English",
+      "jobTitle": "CEO & Founder"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "postOfficeBoxNumber": "710",
+      "addressLocality": "Pewee Valley",
+      "addressRegion": "KY",
+      "postalCode": "40056",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-502-276-0284",
+    "email": "info@usframing.com",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "US Family of Companies"
+    },
+    "numberOfEmployees": {
+      "@type": "QuantitativeValue",
+      "minValue": 201,
+      "maxValue": 500
+    }
+  }
+  </script>
+</head>
+<body class="bg-white text-gray-800 antialiased">
+
+  <a href="#main" class="skip-link bg-sky text-white font-semibold px-4 py-2 rounded-b-lg">Skip to main content</a>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <a href="/" class="flex items-center gap-3 group" aria-label="US Framing Home">
+          <span class="font-heading text-3xl font-bold text-navy">US</span>
+          <span class="w-0.5 h-8 bg-sky rounded-full"></span>
+          <div class="flex flex-col">
+            <span class="font-body text-xl font-light text-navy tracking-widest">FRAMING</span>
+            <span class="font-body text-[9px] font-medium text-sky tracking-[0.2em] -mt-0.5">COMMERCIAL WOOD FRAMING</span>
+          </div>
+        </a>
+        <div class="hidden lg:flex items-center gap-8">
+          <a href="/" class="text-sm font-medium text-navy hover:text-sky transition-colors">Home</a>
+          <a href="/services.html" class="text-sm font-medium text-navy hover:text-sky transition-colors">Services</a>
+          <a href="/projects.html" class="text-sm font-medium text-navy hover:text-sky transition-colors">Projects</a>
+          <a href="/about.html" class="text-sm font-medium text-sky border-b-2 border-sky pb-0.5">About</a>
+          <a href="/blog.html" class="text-sm font-medium text-navy hover:text-sky transition-colors">Insights</a>
+          <a href="/contact.html" class="text-sm font-medium text-navy hover:text-sky transition-colors">Contact</a>
+          <a href="/contact.html" class="inline-flex items-center px-6 py-2.5 bg-sky hover:bg-sky-dark text-white font-semibold text-sm rounded transition-all duration-200 shadow-md hover:shadow-lg">Request a Bid</a>
+        </div>
+        <button id="mobile-menu-btn" class="lg:hidden p-2 text-navy" aria-label="Open navigation menu" aria-expanded="false">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden fixed inset-0 bg-navy/95 z-50 lg:hidden">
+      <div class="flex flex-col items-center justify-center h-full gap-8">
+        <button id="mobile-menu-close" class="absolute top-6 right-6 text-white p-2" aria-label="Close navigation menu">
+          <i data-lucide="x" class="w-8 h-8"></i>
+        </button>
+        <a href="/" class="text-2xl font-heading text-white hover:text-sky transition-colors">Home</a>
+        <a href="/services.html" class="text-2xl font-heading text-white hover:text-sky transition-colors">Services</a>
+        <a href="/projects.html" class="text-2xl font-heading text-white hover:text-sky transition-colors">Projects</a>
+        <a href="/about.html" class="text-2xl font-heading text-sky">About</a>
+        <a href="/blog.html" class="text-2xl font-heading text-white hover:text-sky transition-colors">Insights</a>
+        <a href="/contact.html" class="text-2xl font-heading text-white hover:text-sky transition-colors">Contact</a>
+        <a href="/contact.html" class="mt-4 px-8 py-3 bg-sky text-white font-semibold text-lg rounded">Request a Bid</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <!-- PAGE HERO -->
+    <section class="relative pt-20 min-h-[40vh] flex items-center overflow-hidden">
+      <div class="absolute inset-0">
+        <img src="https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?w=1920&q=80" alt="Wood framing construction on a multi-family building project" class="w-full h-full object-cover" loading="eager">
+        <div class="hero-overlay absolute inset-0"></div>
+      </div>
+      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+        <nav aria-label="Breadcrumb" class="mb-4">
+          <ol class="flex items-center gap-2 text-sm text-white/50">
+            <li><a href="/" class="hover:text-sky-light transition-colors">Home</a></li>
+            <li>/</li>
+            <li class="text-sky-light font-medium">About</li>
+          </ol>
+        </nav>
+        <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4">About US Framing</h1>
+        <p class="font-body text-lg text-white/70 max-w-2xl">The nation's largest multi-family wood framing group, delivering 15M+ sqft of precision framing every year across the United States.</p>
+      </div>
+    </section>
+
+    <!-- COMPANY STORY -->
+    <section class="py-20 lg:py-28 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center reveal">
+          <div>
+            <p class="text-sky font-body text-sm font-semibold tracking-[0.2em] uppercase mb-3">Our Story</p>
+            <h2 class="font-heading text-3xl sm:text-4xl font-bold text-navy mb-6">From a Small Crew to a National Force</h2>
+            <div class="space-y-4 text-gray-600 leading-relaxed">
+              <p>US Framing International was founded in the early 1990s by Thomas English with a single framing crew and a commitment to doing things right. What began as a small operation framing houses in Kentucky has grown into the nation's largest multi-family wood framing group, delivering over 15 million square feet of production framing annually.</p>
+              <p>Based in Pewee Valley, Kentucky, we built our reputation on three principles: uncompromising quality, a relentless focus on safety, and a willingness to adopt the latest technology before the rest of the industry catches up. Our early investment in BIM technology and pre-design capabilities set us apart from traditional framing contractors and allowed us to take on increasingly complex projects.</p>
+              <p>Today, with 201-500 employees and approximately $14M in annual revenue, US Framing serves every major market in the United States. From the Atlantic coast to the West, from Florida to the Midwest, our regional teams deliver consistent quality backed by national resources and decades of expertise.</p>
+            </div>
+          </div>
+          <div class="rounded-xl overflow-hidden shadow-lg">
+            <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80" alt="US Framing crew working on a commercial wood framing project" class="w-full h-auto" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MISSION STATEMENT -->
+    <section class="py-20 lg:py-28 bg-navy">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center reveal">
+        <div class="w-16 h-16 mx-auto mb-8 rounded-full bg-sky/20 flex items-center justify-center">
+          <i data-lucide="target" class="w-8 h-8 text-sky-light"></i>
+        </div>
+        <p class="text-sky-light font-body text-sm font-semibold tracking-[0.2em] uppercase mb-4">Our Mission</p>
+        <blockquote class="font-heading text-2xl sm:text-3xl lg:text-4xl font-bold text-white leading-snug">
+          "To deliver the highest quality wood framing services through innovative technology, skilled craftsmanship, and unwavering commitment to safety and client satisfaction."
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="py-20 lg:py-28 bg-gray-50">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 reveal">
+          <p class="text-sky font-body text-sm font-semibold tracking-[0.2em] uppercase mb-3">Our Journey</p>
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-navy mb-4">Three Decades of Growth</h2>
+        </div>
+
+        <div class="relative">
+          <div class="absolute left-4 lg:left-1/2 top-0 bottom-0 w-0.5 bg-sky/20 -translate-x-1/2"></div>
+
+          <div class="space-y-12 reveal">
+            <!-- Early 1990s -->
+            <div class="relative flex flex-col lg:flex-row items-start lg:items-center gap-4 lg:gap-8">
+              <div class="lg:w-1/2 lg:text-right lg:pr-8 pl-10 lg:pl-0">
+                <span class="font-heading text-2xl font-bold text-sky">Early 1990s</span>
+                <h3 class="font-heading text-lg font-semibold text-navy mt-1">Founded by Thomas English</h3>
+                <p class="text-sm text-gray-500 mt-2">Thomas English starts US Framing International with a small crew framing houses in Kentucky, building a reputation for quality craftsmanship and reliability.</p>
+              </div>
+              <div class="absolute left-4 lg:left-1/2 w-4 h-4 rounded-full bg-sky border-4 border-white shadow -translate-x-1/2"></div>
+              <div class="lg:w-1/2 lg:pl-8"></div>
+            </div>
+
+            <!-- Late 1990s -->
+            <div class="relative flex flex-col lg:flex-row items-start lg:items-center gap-4 lg:gap-8">
+              <div class="lg:w-1/2 lg:pr-8"></div>
+              <div class="absolute left-4 lg:left-1/2 w-4 h-4 rounded-full bg-sky border-4 border-white shadow -translate-x-1/2"></div>
+              <div class="lg:w-1/2 lg:pl-8 pl-10">
+                <span class="font-heading text-2xl font-bold text-sky">Late 1990s</span>
+                <h3 class="font-heading text-lg font-semibold text-navy mt-1">Multi-Family Market Expansion</h3>
+                <p class="text-sm text-gray-500 mt-2">Recognizing the opportunity in multi-family construction, US Framing pivots from single-family homes to large-scale apartment and condominium projects.</p>
+              </div>
+            </div>
+
+            <!-- 2005 -->
+            <div class="relative flex flex-col lg:flex-row items-start lg:items-center gap-4 lg:gap-8">
+              <div class="lg:w-1/2 lg:text-right lg:pr-8 pl-10 lg:pl-0">
+                <span class="font-heading text-2xl font-bold text-sky">2005</span>
+                <h3 class="font-heading text-lg font-semibold text-navy mt-1">BIM Technology Adoption</h3>
+                <p class="text-sm text-gray-500 mt-2">US Framing becomes an early adopter of BIM technology with MiTek Sapphire, revolutionizing pre-design and reducing material waste across all projects.</p>
+              </div>
+              <div class="absolute left-4 lg:left-1/2 w-4 h-4 rounded-full bg-sky border-4 border-white shadow -translate-x-1/2"></div>
+              <div class="lg:w-1/2 lg:pl-8"></div>
+            </div>
+
+            <!-- 2010 -->
+            <div class="relative flex flex-col lg:flex-row items-start lg:items-center gap-4 lg:gap-8">
+              <div class="lg:w-1/2 lg:pr-8"></div>
+              <div class="absolute left-4 lg:left-1/2 w-4 h-4 rounded-full bg-sky border-4 border-white shadow -translate-x-1/2"></div>
+              <div class="lg:w-1/2 lg:pl-8 pl-10">
+                <span class="font-heading text-2xl font-bold text-sky">2010</span>
+                <h3 class="font-heading text-lg font-semibold text-navy mt-1">100+ Employee Milestone</h3>
+                <p class="text-sm text-gray-500 mt-2">The company surpasses 100 employees, establishing itself as one of the premier wood framing contractors in the Midwest and Southeast.</p>
+              </div>
+            </div>
+
+            <!-- 2015 -->
+            <div class="relative flex flex-col lg:flex-row items-start lg:items-center gap-4 lg:gap-8">
+              <div class="lg:w-1/2 lg:text-right lg:pr-8 pl-10 lg:pl-0">
+                <span class="font-heading text-2xl font-bold text-sky">2015</span>
+                <h3 class="font-heading text-lg font-semibold text-navy mt-1">Nationwide Expansion Begins</h3>
+                <p class="text-sm text-gray-500 mt-2">US Framing expands beyond its home markets, establishing regional operations across the Atlantic, Northeast, South, Southeast, West, and Florida.</p>
+              </div>
+              <div class="absolute left-4 lg:left-1/2 w-4 h-4 rounded-full bg-sky border-4 border-white shadow -translate-x-1/2"></div>
+              <div class="lg:w-1/2 lg:pl-8"></div>
+            </div>
+
+            <!-- 2018 -->
+            <div class="relative flex flex-col lg:flex-row items-start lg:items-center gap-4 lg:gap-8">
+              <div class="lg:w-1/2 lg:pr-8"></div>
+              <div class="absolute left-4 lg:left-1/2 w-4 h-4 rounded-full bg-sky border-4 border-white shadow -translate-x-1/2"></div>
+              <div class="lg:w-1/2 lg:pl-8 pl-10">
+                <span class="font-heading text-2xl font-bold text-sky">2018</span>
+                <h3 class="font-heading text-lg font-semibold text-navy mt-1">CLT / Mass Timber Division</h3>
+                <p class="text-sm text-gray-500 mt-2">Launches a dedicated Cross-Laminated Timber and mass timber division, positioning the company at the forefront of sustainable construction technology.</p>
+              </div>
+            </div>
+
+            <!-- 2020 -->
+            <div class="relative flex flex-col lg:flex-row items-start lg:items-center gap-4 lg:gap-8">
+              <div class="lg:w-1/2 lg:text-right lg:pr-8 pl-10 lg:pl-0">
+                <span class="font-heading text-2xl font-bold text-sky">2020</span>
+                <h3 class="font-heading text-lg font-semibold text-navy mt-1">US Family of Companies Partnership</h3>
+                <p class="text-sm text-gray-500 mt-2">The US Family of Companies partnership is formalized, integrating US Framing with US Drywall, US Exteriors, US Interiors, and US Development for framing-through-finish capability.</p>
+              </div>
+              <div class="absolute left-4 lg:left-1/2 w-4 h-4 rounded-full bg-sky border-4 border-white shadow -translate-x-1/2"></div>
+              <div class="lg:w-1/2 lg:pl-8"></div>
+            </div>
+
+            <!-- 2024 -->
+            <div class="relative flex flex-col lg:flex-row items-start lg:items-center gap-4 lg:gap-8">
+              <div class="lg:w-1/2 lg:pr-8"></div>
+              <div class="absolute left-4 lg:left-1/2 w-4 h-4 rounded-full bg-sky border-4 border-white shadow -translate-x-1/2"></div>
+              <div class="lg:w-1/2 lg:pl-8 pl-10">
+                <span class="font-heading text-2xl font-bold text-sky">2024</span>
+                <h3 class="font-heading text-lg font-semibold text-navy mt-1">15M+ Sqft Annual Capacity</h3>
+                <p class="text-sm text-gray-500 mt-2">US Framing achieves 15 million+ square feet of annual framing capacity, solidifying its position as the nation's largest multi-family wood framing group.</p>
+              </div>
+            </div>
+
+            <!-- 2026 -->
+            <div class="relative flex flex-col lg:flex-row items-start lg:items-center gap-4 lg:gap-8">
+              <div class="lg:w-1/2 lg:text-right lg:pr-8 pl-10 lg:pl-0">
+                <span class="font-heading text-2xl font-bold text-sky">2026</span>
+                <h3 class="font-heading text-lg font-semibold text-navy mt-1">Serving All Major US Markets</h3>
+                <p class="text-sm text-gray-500 mt-2">With regional teams spanning the Atlantic, Northeast, Midwest, West, South, Southeast, and Florida, US Framing delivers nationwide coverage with local expertise.</p>
+              </div>
+              <div class="absolute left-4 lg:left-1/2 w-4 h-4 rounded-full bg-sky border-4 border-white shadow -translate-x-1/2"></div>
+              <div class="lg:w-1/2 lg:pl-8"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CORE VALUES -->
+    <section class="py-20 lg:py-28 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 reveal">
+          <p class="text-sky font-body text-sm font-semibold tracking-[0.2em] uppercase mb-3">What Drives Us</p>
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-navy mb-4">Core Values</h2>
+          <p class="font-body text-lg text-gray-500 max-w-2xl mx-auto">The principles that guide every project, every decision, and every relationship at US Framing International.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 stagger">
+          <div class="bg-gray-50 rounded-xl p-6 text-center card-hover">
+            <div class="w-14 h-14 mx-auto mb-4 rounded-full bg-sky/10 flex items-center justify-center">
+              <i data-lucide="shield-check" class="w-7 h-7 text-sky"></i>
+            </div>
+            <h3 class="font-heading text-lg font-semibold text-navy mb-2">Safety First</h3>
+            <p class="text-sm text-gray-500">Industry-leading 0.5 EMR. Every crew member trained. Every jobsite audited. Zero compromises.</p>
+          </div>
+          <div class="bg-gray-50 rounded-xl p-6 text-center card-hover">
+            <div class="w-14 h-14 mx-auto mb-4 rounded-full bg-sky/10 flex items-center justify-center">
+              <i data-lucide="hammer" class="w-7 h-7 text-sky"></i>
+            </div>
+            <h3 class="font-heading text-lg font-semibold text-navy mb-2">Quality Craftsmanship</h3>
+            <p class="text-sm text-gray-500">Precision framing backed by decades of experience. Every joint, every connection, done right the first time.</p>
+          </div>
+          <div class="bg-gray-50 rounded-xl p-6 text-center card-hover">
+            <div class="w-14 h-14 mx-auto mb-4 rounded-full bg-sky/10 flex items-center justify-center">
+              <i data-lucide="cpu" class="w-7 h-7 text-sky"></i>
+            </div>
+            <h3 class="font-heading text-lg font-semibold text-navy mb-2">Innovation & Technology</h3>
+            <p class="text-sm text-gray-500">Early adopters of BIM, MiTek Sapphire, and Fieldwire. Technology-driven efficiency on every project.</p>
+          </div>
+          <div class="bg-gray-50 rounded-xl p-6 text-center card-hover">
+            <div class="w-14 h-14 mx-auto mb-4 rounded-full bg-sky/10 flex items-center justify-center">
+              <i data-lucide="handshake" class="w-7 h-7 text-sky"></i>
+            </div>
+            <h3 class="font-heading text-lg font-semibold text-navy mb-2">Integrity</h3>
+            <p class="text-sm text-gray-500">Transparent communication, honest estimates, and commitments we stand behind. Our word is our bond.</p>
+          </div>
+          <div class="bg-gray-50 rounded-xl p-6 text-center card-hover">
+            <div class="w-14 h-14 mx-auto mb-4 rounded-full bg-sky/10 flex items-center justify-center">
+              <i data-lucide="heart" class="w-7 h-7 text-sky"></i>
+            </div>
+            <h3 class="font-heading text-lg font-semibold text-navy mb-2">Family Culture</h3>
+            <p class="text-sm text-gray-500">Built on family values. We invest in our people, promote from within, and treat every team member like family.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEADERSHIP -->
+    <section class="py-20 lg:py-28 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 reveal">
+          <p class="text-sky font-body text-sm font-semibold tracking-[0.2em] uppercase mb-3">Our Team</p>
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-navy mb-4">Leadership</h2>
+        </div>
+
+        <div class="max-w-2xl mx-auto reveal">
+          <div class="bg-white rounded-xl p-8 shadow-sm text-center">
+            <div class="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-navy to-navy-light flex items-center justify-center">
+              <span class="font-heading text-3xl font-bold text-sky-light">TE</span>
+            </div>
+            <h3 class="font-heading text-2xl font-semibold text-navy">Thomas English</h3>
+            <p class="text-sm text-sky font-semibold mb-4">CEO & Founder</p>
+            <p class="text-gray-500 leading-relaxed max-w-lg mx-auto">Thomas English founded US Framing International in the early 1990s with a vision to transform the wood framing industry through technology, safety, and skilled craftsmanship. Under his leadership, the company has grown from a small residential framing crew into the nation's largest multi-family wood framing group, delivering over 15 million square feet of framing annually across every major US market. Thomas's commitment to innovation — including early adoption of BIM modeling and mass timber construction — has positioned US Framing at the leading edge of the industry.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS & PARTNERS -->
+    <section class="py-20 lg:py-28 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 reveal">
+          <p class="text-sky font-body text-sm font-semibold tracking-[0.2em] uppercase mb-3">Credentials</p>
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold text-navy mb-4">Certifications & Partners</h2>
+          <p class="font-body text-lg text-gray-500 max-w-2xl mx-auto">We partner with the industry's leading technology and material providers to deliver superior results on every project.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 stagger">
+          <div class="flex items-start gap-4 bg-gray-50 p-6 rounded-xl card-hover">
+            <div class="w-12 h-12 flex items-center justify-center rounded-lg bg-sky/10 text-sky flex-shrink-0">
+              <i data-lucide="award" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-navy">MiTek</h4>
+              <p class="text-xs text-gray-500 mt-1">BIM & Sapphire software partner for pre-design and structural modeling</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4 bg-gray-50 p-6 rounded-xl card-hover">
+            <div class="w-12 h-12 flex items-center justify-center rounded-lg bg-sky/10 text-sky flex-shrink-0">
+              <i data-lucide="award" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-navy">Simpson Strong-Tie</h4>
+              <p class="text-xs text-gray-500 mt-1">Structural connector and fastening system partner for engineered connections</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4 bg-gray-50 p-6 rounded-xl card-hover">
+            <div class="w-12 h-12 flex items-center justify-center rounded-lg bg-sky/10 text-sky flex-shrink-0">
+              <i data-lucide="award" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-navy">National Framing Council</h4>
+              <p class="text-xs text-gray-500 mt-1">Active member advancing industry standards and best practices in wood framing</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4 bg-gray-50 p-6 rounded-xl card-hover">
+            <div class="w-12 h-12 flex items-center justify-center rounded-lg bg-sky/10 text-sky flex-shrink-0">
+              <i data-lucide="tablet-smartphone" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-navy">Fieldwire</h4>
+              <p class="text-xs text-gray-500 mt-1">Jobsite management platform for real-time task tracking and quality control</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="relative py-24 overflow-hidden">
+      <div class="absolute inset-0">
+        <img src="https://images.unsplash.com/photo-1574362848149-11496d93a7c7?w=1920&q=80" alt="Active construction site with wood framing in progress" class="w-full h-full object-cover" loading="lazy">
+        <div class="absolute inset-0 bg-navy/90"></div>
+      </div>
+      <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">Join Our Team or Start a Project</h2>
+        <p class="font-body text-lg text-white/70 mb-10 max-w-2xl mx-auto">Whether you are looking to build your career with the nation's leading wood framing group or need a reliable framing partner for your next project, we want to hear from you.</p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="/contact.html" class="inline-flex items-center px-8 py-4 bg-sky hover:bg-sky-dark text-white font-semibold text-lg rounded transition-all duration-200 shadow-lg hover:shadow-xl">
+            Request a Bid <i data-lucide="arrow-right" class="w-5 h-5 ml-2"></i>
+          </a>
+          <a href="/contact.html" class="inline-flex items-center px-8 py-4 border-2 border-white/30 hover:border-white text-white font-semibold text-lg rounded transition-all duration-200">
+            <i data-lucide="users" class="w-5 h-5 mr-2"></i>
+            Join Our Team
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-navy-dark pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+        <div>
+          <div class="flex items-center gap-2 mb-4">
+            <span class="font-heading text-2xl font-bold text-white">US</span>
+            <span class="w-0.5 h-6 bg-sky rounded-full"></span>
+            <span class="font-body text-lg font-light text-white tracking-widest">FRAMING</span>
+          </div>
+          <p class="text-sm text-white/50 mb-6 leading-relaxed">Nation's largest multi-family wood framing group. 15M+ sqft/year across all major US markets. Part of the US Family of Companies.</p>
+          <div class="flex items-center gap-4">
+            <a href="https://www.linkedin.com/company/us-framing" target="_blank" rel="noopener" aria-label="LinkedIn" class="text-white/40 hover:text-sky-light transition-colors">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/usframing" target="_blank" rel="noopener" aria-label="Facebook" class="text-white/40 hover:text-sky-light transition-colors">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385h-3.047v-3.47h3.047v-2.642c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953h-1.514c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385c5.738-.9 10.126-5.864 10.126-11.854z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="font-body text-sm font-semibold text-white uppercase tracking-wider mb-4">Services</h4>
+          <ul class="space-y-2.5">
+            <li><a href="/services.html#pre-design" class="text-sm text-white/50 hover:text-sky-light transition-colors">Pre-Design / BIM Modeling</a></li>
+            <li><a href="/services.html#pre-construction" class="text-sm text-white/50 hover:text-sky-light transition-colors">Pre-Construction</a></li>
+            <li><a href="/services.html#production-framing" class="text-sm text-white/50 hover:text-sky-light transition-colors">Production Framing</a></li>
+            <li><a href="/services.html#project-management" class="text-sm text-white/50 hover:text-sky-light transition-colors">Project Management</a></li>
+            <li><a href="/services.html#takeover" class="text-sm text-white/50 hover:text-sky-light transition-colors">Takeover Services</a></li>
+            <li><a href="/services.html#mass-timber" class="text-sm text-white/50 hover:text-sky-light transition-colors">CLT / Mass Timber</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-body text-sm font-semibold text-white uppercase tracking-wider mb-4">Company</h4>
+          <ul class="space-y-2.5">
+            <li><a href="/about.html" class="text-sm text-white/50 hover:text-sky-light transition-colors">About Us</a></li>
+            <li><a href="/projects.html" class="text-sm text-white/50 hover:text-sky-light transition-colors">Projects</a></li>
+            <li><a href="/blog.html" class="text-sm text-white/50 hover:text-sky-light transition-colors">Insights</a></li>
+            <li><a href="/contact.html" class="text-sm text-white/50 hover:text-sky-light transition-colors">Contact</a></li>
+            <li><a href="https://us-drywall.onrender.com" target="_blank" rel="noopener" class="text-sm text-white/50 hover:text-sky-light transition-colors">US Drywall</a></li>
+            <li><a href="https://us-exteriors.onrender.com" target="_blank" rel="noopener" class="text-sm text-white/50 hover:text-sky-light transition-colors">US Exteriors</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-body text-sm font-semibold text-white uppercase tracking-wider mb-4">Contact</h4>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3"><i data-lucide="map-pin" class="w-4 h-4 text-sky-light mt-0.5 flex-shrink-0"></i><span class="text-sm text-white/50">P.O. Box 710<br>Pewee Valley, KY 40056</span></li>
+            <li class="flex items-center gap-3"><i data-lucide="phone" class="w-4 h-4 text-sky-light flex-shrink-0"></i><a href="tel:+15022760284" class="text-sm text-white/50 hover:text-sky-light transition-colors">(502) 276-0284</a></li>
+            <li class="flex items-center gap-3"><i data-lucide="mail" class="w-4 h-4 text-sky-light flex-shrink-0"></i><a href="mailto:info@usframing.com" class="text-sm text-white/50 hover:text-sky-light transition-colors">info@usframing.com</a></li>
+            <li class="flex items-center gap-3"><i data-lucide="clock" class="w-4 h-4 text-sky-light flex-shrink-0"></i><span class="text-sm text-white/50">Mon-Fri: 7:00 AM - 5:00 PM</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-white/10 pt-8 mb-8">
+        <p class="text-xs text-white/30 text-center">Serving Nationwide &mdash; Atlantic, Northeast, Midwest, West, South, Southeast, and Florida</p>
+      </div>
+      <div class="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p class="text-xs text-white/30">&copy; 2026 US Framing International. All rights reserved. A US Family of Companies partner.</p>
+        <div class="flex items-center gap-6">
+          <a href="/privacy-policy.html" class="text-xs text-white/30 hover:text-white/50 transition-colors">Privacy Policy</a>
+          <a href="/terms.html" class="text-xs text-white/30 hover:text-white/50 transition-colors">Terms of Service</a>
+          <a href="/sitemap.xml" class="text-xs text-white/30 hover:text-white/50 transition-colors">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuClose = document.getElementById('mobile-menu-close');
+    menuBtn.addEventListener('click', () => { mobileMenu.classList.remove('hidden'); document.body.style.overflow = 'hidden'; });
+    menuClose.addEventListener('click', () => { mobileMenu.classList.add('hidden'); document.body.style.overflow = ''; });
+    mobileMenu.querySelectorAll('a').forEach(link => { link.addEventListener('click', () => { mobileMenu.classList.add('hidden'); document.body.style.overflow = ''; }); });
+
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => { navbar.classList.toggle('nav-scrolled', window.scrollY > 50); });
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); revealObserver.unobserve(entry.target); } });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+    document.querySelectorAll('.reveal, .stagger').forEach(el => revealObserver.observe(el));
+
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.querySelectorAll('.reveal, .stagger, .stagger > *').forEach(el => { el.style.opacity = '1'; el.style.transform = 'none'; el.style.transition = 'none'; });
+    }
+  </script>
+</body>
+</html>
